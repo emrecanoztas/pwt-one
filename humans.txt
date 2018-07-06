@@ -1,0 +1,16 @@
+# http://humanstxt.org/
+
+/* TEAM */
+Your title  : pwt-one (Personal Website Template - One)
+Site        : info@bizBizeWeb.com | https://bizBizeWeb.com
+Author      : Emre Can ÖZTAŞ (ecoz)
+Location    : Ankara / TURKEY
+
+/* THANKS */
+Name        : none
+
+/* SITE */
+Last update : 2018/07/06
+Standards   : HTML5, CSS3 and JavaScript
+Components  : Websiteleton, Materialiaze, jQuery, Normalize and Fontawesome
+Software    : XAMPP and Sublime Text 3

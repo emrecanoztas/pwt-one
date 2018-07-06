@@ -1,0 +1,38 @@
+/* 
+ * =====================================================================================================================
+ * =================================================== main.css ========================================================
+ * =====================================================================================================================
+ * PACKAGE      : websiteleton
+ * TEAM         : bizBizeWeb (https://bizBizeWeb.com)
+ * AUTHOR       : Emre Can ÖZTAŞ (ecoz)
+ * MAIL         : info@bizBizeWeb.com
+ * LICENSE      : MIT 
+ * DESCRIPTION  : APP CSS Codes
+ * =====================================================================================================================
+ */
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	font-family: Lato;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+div.padding-top-5x {
+	padding-top: 5px;
+}
+
+.page-footer .footer-copyright {
+	padding-bottom: 0px;
+}
+
+/*.sidenav {
+	width: 240px;
+}*/
+
+.zero-margin-bottom {
+	margin-bottom: 0px!important;
+}

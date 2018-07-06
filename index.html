@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sadri Alışık</title>
+
+	<!-- /human.txt -->
+	<link type="text/plain" rel="author" href="./humans.txt">
+	<!-- human.txt/ -->
+
+	<!-- /disable-tap-highlight-on-ie -->
+	<meta name="msapplication-tap-highlight" content="no">
+	<!-- disable-tap-highlight-on-ie/ -->
+
+	<!-- /web-application-manifest -->
+	<link rel="manifest" href="manifest.json">
+	<!-- web-application-manifest/ -->
+
+	<!-- /add-to-homescreen-for-chrome-on-android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="websiteleton">
+	<link rel="icon" sizes="192x192" href="./assets/images/touch/chrome-touch-icon-192x192.png">
+	<!-- add-to-homescreen-for-chrome-on-android/ -->
+
+	<!-- /add-to-homescreen-for-safari-on-ios -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="websiteleton">
+	<link rel="apple-touch-icon" href="./assets/images/touch/apple-touch-icon.png">
+	<!-- /add-to-homescreen-for-safari-on-ios -->
+
+	<!-- /tile-icon-for-win8-(144x144 + tile color) -->
+	<meta name="msapplication-TileImage" content="./assets/images/touch/ms-touch-icon-144x144-precomposed.png">
+	<meta name="msapplication-TileColor" content="#2F3BA2">
+	<!-- tile-icon-for-win8-(144x144 + tile color)/ -->
+
+	<!-- /color-the-status-bar-on-mobile-devices -->
+	<meta name="theme-color" content="#2F3BA2">
+	<!-- color-the-status-bar-on-mobile-devices/ -->
+
+	<!-- /fonts -->
+	<link rel="stylesheet" href="./assets/libraries/fonts/lato/lato.css">
+	<!-- fonts/ -->
+
+	<!-- /style-files -->
+	<link rel="stylesheet" href="./assets/libraries/styles/normalize/normalize.css">
+	<link rel="stylesheet" href="./assets/libraries/styles/materialize/css/materialize.min.css">
+	<link rel="stylesheet" href="./assets/libraries/styles/fontawesome/web-fonts-with-css/css/fa-brands.css">
+	<link rel="stylesheet" href="./assets/libraries/styles/fontawesome/web-fonts-with-css/css/fa-regular.css">
+	<link rel="stylesheet" href="assets/libraries/styles/fontawesome/web-fonts-with-css/css/fa-solid.min.css">
+	<link rel="stylesheet" href="./assets/libraries/styles/fontawesome/web-fonts-with-css/css/fontawesome.css">
+	<link rel="stylesheet" href="./assets/libraries/styles/helper.css/helper.css">
+	<link rel="stylesheet" href="./assets/styles/main.css">
+	<!-- style-files/ -->
+</head>
+<body class="blue">
+
+	<!-- /header -->
+	<header>
+		<!-- /menu-button -->
+		<div class="container">
+			<div class="row show-on-medium-and-down hide-on-large-only padding-top-5x">
+				<div class="col s12 m12 right-align">
+					<button class="waves-effect waves-light btn btn-floating blue sidenav-trigger" data-target="slide-out-menu">
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- menu-button/ -->
+
+		<!-- /menu-screen -->
+		<ul id="slide-out-menu" class="sidenav menu-screen">
+			<li>
+				<div class="user-view">
+					<div class="background">
+						<img src="./assets/images/cover/cover.jpg">
+					</div>
+					<a href="#!">
+						<img class="circle" src="./assets/images/profile/profile.jpg">
+					</a>
+					<a href="#!">
+						<span class="white-text name"><b>John Doe</b></span>
+					</a>
+					<a href="#!">
+						<span class="white-text email">Software Developer</span>
+					</a>
+				</div>
+			</li>
+			<li>
+				<a href="tel: +90555 555 55 55">
+					+90555 555 55 55
+				</a>
+			</li>
+			<li>
+				<a href="mailto: blabla@mail.com">
+					blabla@mail.com
+				</a>
+			</li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li>
+				<a href="#hire-me-modal" class="modal-trigger green-text">
+					Hire Me!
+				</a>
+			</li>
+			<li>
+				<div class="divider"></div>
+			</li>
+			<li>
+				<a class="waves-effect" href="https://github.com/emrecanoztas/pwt-one">Github</a>
+			</li>
+			<li>
+				<a class="waves-effect" href="https://github.com/emrecanoztas/pwt-one/archive/master.zip">Download</a>
+			</li>
+		</ul>
+		<!-- menu-screen/ -->
+
+		<!-- /hire-me-modal -->
+		<div id="hire-me-modal" class="modal">
+			<div class="modal-content">
+				<h4>Hire Me!</h4>
+				<p>Please give me some details about your projects.</p>
+				<p>
+					<div class="input-field">
+						<textarea name="details" id="details" class="materialize-textarea" placeholder="Name, surname, e-mail and details..."></textarea>
+					</div>
+				</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-close waves-effect waves-green btn btn-small green">Send</a>
+				<a href="#!" class="modal-close waves-effect waves-green btn btn-small red">Cancel</a>
+			</div>
+		</div>
+		<!-- hire-me-modal/ -->
+	</header>
+	<!-- header/ -->
+
+	<!-- /main -->
+	<main>
+		<div class="container">
+			<div class="row">
+				<!-- /profile -->
+				<div class="col s12 m3 hide-on-med-and-down show-on-large">
+					<!-- /profile-card -->
+					<div class="card">
+						<!-- /profile-image-and-name-surname -->
+						<div class="card-image">
+							<!-- /profile-image -->
+							<img src="./assets/images/profile/profile.jpg" class="circle responsive-img">
+							<!-- profile-image/ -->
+							<!-- /profile-name-surname -->
+							<div class="card-title">Sadri Alışık</div>
+							<!-- profile-name-surname/ -->
+						</div>
+						<!-- profile-image-and-name-surname/ -->
+						<!-- /profile-details -->
+						<div class="card-content">
+							<p>
+								<b>Job Title:</b>
+							</p>
+							<p>Actor</p>
+							<p>
+								<b>Contact:</b>
+							</p>
+							<p>blabla@mail.com</p>
+							<p>+90555 555 55 55</p>
+							<br>
+							<!-- /hire-me-button -->
+							<a href="#hire-me-modal" class="waves-effect waves-light btn btn-small green full-width modal-trigger">
+								Hire Me!
+							</a>
+							<!-- hire-me-button/ -->
+						</div>
+						<!-- profile-details/ -->
+						<!-- /social-media-icons -->
+						<div class="card-action center-align">
+							<a href="#" class="waves-effect waves-light btn btn-small btn-floating facebook-b">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="#" class="waves-effect waves-light btn btn-small btn-floating linkedin-b">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+							<a href="#" class="waves-effect waves-light btn btn-small btn-floating twitter-b">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="#" class="waves-effect waves-light btn btn-small btn-floating instagram-b">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</div>
+						<!-- social-media-icons/ -->
+					</div>
+					<!-- profile-card/ -->
+
+					<!-- /github-and-download-card -->
+					<div class="card">
+						<div class="card-content center-align">
+							<p>
+								<i class="fas fa-heart red-text fa-5x"></i>
+							</p>
+							<div class="card-title">Like it?</div>
+							<p>
+								It's <b>freeeeeeeeee!</b>
+							</p>
+							<p>Download it!</p>
+						</div>
+						<div class="card-action center-align">
+							<a href="https://github.com/emrecanoztas/pwt-one" class="waves-effect waves-light btn btn-small btn-floating grey">
+								<i class="fab fa-github"></i>
+							</a>
+							<a href="https://github.com/emrecanoztas/pwt-one/archive/master.zip" class="waves-effect waves-light btn btn-small btn-floating grey">
+								<i class="fas fa-arrow-down"></i>
+							</a>
+						</div>
+					</div>
+					<!-- /github-and-download-card -->
+				</div>
+				<!-- profile/ -->
+
+				<!-- /profile-details -->
+				<div class="col s12 m9">
+					<!-- /about -->
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title">About</div>
+							<p>
+								Sadri Alışık, born Mehmet Sadrettin Alışık (5 April 1925 – 18 March 1995), was a stage and movie actor. Also, he was one of the best comedians in Turkey. He was the husband of Çolpan İlhan.
+							</p>
+
+						</div>
+						<div class="card-action"></div>
+					</div>
+					<!-- about/ -->
+					<!-- /life -->
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title">Life</div>
+							<p>
+								He was a prolific actor. His movies that depicted poor, uneducated people of the society, who were happy and believed in love, the most were very popular in the 1960s and 1970s. His classical fun movies titled "Turist Ömer" were also great hits. He also had a leading role in the popular Turkish television series, "Kartallar Yüksek Uçar".
+							</p><br>
+							<p>
+								Alışık was also very interested in poetry and published his poems in a book called "Bir Ömürlük İstanbul" or Istanbul of a Lifetime.
+							</p><br>
+							<p>
+								He died on 18 March 1995. Alışık was laid to rest at the Zincirlikuyu Cemetery in Istanbul.
+							</p>
+						</div>
+						<div class="card-action"></div>
+					</div>
+					<!-- life/ -->
+					<!-- /education -->
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title">Education</div>
+							<table class="responsive-table striped">
+								<thead>
+									<tr>
+										<th>School Name</th>
+										<th>Started</th>
+										<th>Finished</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Academy Of Fine Arts Department Of Painting</td>
+										<td>1940</td>
+										<td>1944</td>
+									</tr>
+									<tr>
+										<td>Istanbul High School</td>
+										<td>1937</td>
+										<td>1940</td>
+									</tr>
+									<tr>
+										<td>Beykoz Middle School</td>
+										<td>1932</td>
+										<td>1937</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="card-action"></div>
+					</div>
+					<!-- school/ -->
+					<!-- /skills -->
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title">Skills</div>
+							<div class="center-align">
+								Authorship (75%)
+								<div class="progress"><div class="determinate" style="width: 75%"></div></div>
+								Drama (100%)
+								<div class="progress"><div class="determinate" style="width: 100%"></div></div>
+								Romantic Comedy (100%)
+								<div class="progress"><div class="determinate" style="width: 100%"></div></div>
+								Painter (65%)
+								<div class="progress"><div class="determinate" style="width: 65%"></div></div>
+							</div>
+						</div>
+						<div class="card-action"></div>
+					</div>
+					<!-- skills/ -->
+					<!-- /publish -->
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title">Publish</div>
+							<table class="responsive-table striped">
+								<thead>
+									<tr>
+										<th>Publishing</th>
+										<th>Date</th>
+										<th>Link</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Veda değil, merhaba'dir</td>
+										<td>2005</td>
+										<td>
+											<a href="#!" class="waves-effect waves-light btn btn-small btn-floating blue">
+												<i class="far fa-bookmark"></i>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="card-action"></div>
+					</div>
+					<!-- publish/ -->
+				</div>
+				<!-- profile-details/ -->
+			</div>
+		</div>
+	</main>
+	<!-- main/ -->
+
+	<!-- /footer -->
+	<footer class="page-footer transparent">
+		<div class="footer-copyright transparent">
+			<div class="row">
+				<div class="col s12 m12 center-align white-text">
+					<h6>
+						<b>Personal Website Template</b>
+					</h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer/ -->
+
+	<!-- /script-files -->
+	<script src="./assets/libraries/scripts/jquery/jquery-3.3.1.min.js"></script>
+	<script src="./assets/libraries/styles/materialize/js/materialize.min.js"></script>
+	<script src="./assets/scripts/main.js"></script>
+	<!-- script-files/ -->
+
+</body>
+</html>

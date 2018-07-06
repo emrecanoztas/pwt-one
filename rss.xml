@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Page Title</title>
+		<link>https://url.com</link>
+		<description>Page Description</description>
+		<item>
+			<title>Page Title</title>
+			<link>https://url/example.com</link>
+			<description>Page Description</description>
+		</item>
+	</channel>
+</rss>

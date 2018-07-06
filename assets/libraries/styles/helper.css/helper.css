@@ -1,0 +1,252 @@
+/* ================================================== helper.css =======================================================
+ * PACKAGE      : helper.css
+ * TEAM         : bizBizeWeb (https://bizBizeWeb.com)
+ * AUTHOR       : Emre Can ÖZTAŞ (ecoz)
+ * MAIL         : info@bizBizeWeb.com
+ * LICENSE      : MIT 
+ * DESCRIPTION  : APP CSS Codes
+ * =====================================================================================================================
+ */
+
+/**
+ * Set Element Full Width
+ */
+.full-width {
+    width: 100%;
+}
+
+/**
+ * Set Element Full Height
+ */
+.full-height {
+    height: 100%;
+}
+
+/**
+ * Set Element Full Width And Height
+ */
+.full-width-height {
+    width  : 100%;
+    height : 100%;
+}
+
+/**
+ * <textarea> Resize Only Vertical
+ */
+textarea {
+    resize: vertical;
+}
+
+/**
+ * Font Sizes
+ */
+.f-size-x {
+    font-size: 1em;
+}
+.f-size-2x {
+    font-size: 2em;
+}
+.f-size-3x {
+    font-size: 3em;
+}
+.f-size-4x {
+    font-size: 4em;
+}
+.f-size-5x {
+    font-size:5em;
+}
+.f-size-6x {
+    font-size: 6em;
+}
+.f-size-7x {
+    font-size: 7em;
+}
+.f-size-8x {
+    font-size: 8em;
+}
+.f-size-9x {
+    font-size: 9em;
+}
+.f-size-10x {
+    font-size: 10em;
+}
+
+/**
+ * Reset Border Radius
+ */
+.reset-border-radius {
+    border-radius: 0px!important;
+}
+
+/**
+ * Reset Padding
+ */
+.reset-padding {
+    padding: 0px!important;
+}
+
+/**
+ * Reset Margin
+ */
+.reset-margin {
+    margin: 0px!important;
+}
+
+/**
+ * <ul> Side By Side
+ */
+ul.side-by-side {
+    list-style: none outside none;
+}
+li.side-by-side {
+    position : relative;
+    display  : inline;
+    padding-right: 5px;
+}
+
+/**
+ * Social Media Background And Colors
+ */
+/* Facebook */
+.facebook-b {
+    background-color: #3b5998;
+}
+.facebook-c {
+    color: #3b5998;
+}
+
+/* Twitter */
+.twitter-b {
+    background-color: #00ACED;
+}
+.twitter-c {
+    color: #00ACED;
+}
+
+/* Instagram */
+.instagram-b {
+    background-color: #fd1d1d;
+}
+.instagram-c {
+    color: #fd1d1d;
+}
+
+/* LinkedIn */
+.linkedin-b {
+    background-color: #0077B5;
+}
+.linkedin-c {
+    color: #0077B5;
+}
+
+/* Messenger */
+.messenger-b {
+    background-color: #0084ff;
+}
+.messenger-c {
+    color: #0084ff;
+}
+
+/* Skype */
+.skype-b {
+    background-color: #00AFF0;
+}
+.skype-c {
+    color: #00AFF0;
+}
+
+/* Dropbox */
+.dropbox-b {
+    background-color: #007ee5;
+}
+.dropbox-c {
+    color: #007ee5;
+}
+
+/* Wordpress */
+.wordpress-b {
+    background-color: #21759b;
+}
+.wordpress-c {
+    color: #21759b;
+}
+
+/* Vimeo */
+.vimeo-b {
+    background-color: #1ab7ea;
+}
+.vimeo-c {
+    color: #1ab7ea;
+}
+
+/* Slideshare */
+.slideshare-b {
+    background-color: #0077b5;
+}
+.slideshare-c {
+    color: #0077b5;
+}
+
+/* VK */
+.vk-b {
+    background-color: #4c75a3;
+}
+.vk-c {
+    color: #4c75a3;
+}
+
+/* Tumblr */
+.tumblr-b {
+    background-color: #34465d;
+}
+.tumblr-c {
+    color: #34465d;
+}
+
+/* Yahoo */
+.yahoo-b {
+    background-color: #410093;
+}
+.yahoo-c {
+    color: #410093;
+}
+
+/* Pinterest */
+.pinterest-b {
+    background-color: #bd081c;
+}
+.pinterest-c {
+    color: #bd081c;
+}
+
+/* Youtube */
+.youtube-b {
+    background-color: #cd201f;
+}
+.youtube-c {
+    color: #cd201f;
+}
+
+/* Reddit */
+.reddit-b {
+    background-color: #ff5700;
+}
+.reddit-c {
+    color: #ff5700;
+}
+
+/* Quora */
+.quora-b {
+    background-color: #b92b27;
+}
+.quora-c {
+    color: #b92b27;
+}
+
+/* Whatsapp */
+.whatsapp-b {
+    background-color: #25D366;
+}
+.whatsapp-c {
+    color: #25D366;
+}
